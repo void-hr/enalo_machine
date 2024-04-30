@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.ant-form {
+  width: 100%;
+}
+.ant-input, .ant-input-password {
+  width: 100%;
+  border-radius: 35px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner{
+  background-color: #17B582;
+  outline: none;
+}
+
+
+
+.ant-btn{
+  width: 100%;
+  background-color: #17B582;
+  border-radius: 133px;
+  padding: 26px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+}
